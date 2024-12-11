@@ -4,8 +4,12 @@ import ListSection from "./components/ListSection";
 import BottomNavigation from "./components/BottomNavigation";
 
 const categories = [
-  { title: "Dormitories", locations: 15, image: "dormitory.jpg" },
+  
+  { title: "Buildings", locations: 13, image: "st.jpg" },
   { title: "Restaurants", locations: 6, image: "restaurant.jpg" },
+  { title: "Dormitories", locations: 15, image: "dormitory.jpg" },
+  //{ title: "Parking Place", locations: 4, image: "parking.jpg" },
+
 ];
 
 const recents = [
