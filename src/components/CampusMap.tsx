@@ -1258,7 +1258,7 @@ const renderPolygon = (coordinates: { x: number; y: number }[]) => {
 };
 
 // Campus map image URL
-const campusMapUrl = "/campus.jpg"; // Place the image in the public/ folder
+const campusMapUrl = "/campus.jpg";
 
 const CampusMap: React.FC = () => {
   const [selectedBuilding, setSelectedBuilding] = useState<Building | null>(
@@ -1286,7 +1286,7 @@ const CampusMap: React.FC = () => {
                 left: 0,
                 width: "100%",
                 height: "100%",
-                pointerEvents: "none", // Allow clicking through the SVG to the image
+                pointerEvents: "none",
               }}
             >
               <polygon
