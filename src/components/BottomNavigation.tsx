@@ -1,6 +1,7 @@
 import HomeIcon from '@mui/icons-material/Home';
 import MapIcon from '@mui/icons-material/Map';
 import LocationOnIcon from '@mui/icons-material/LocationOn';
+
 export default function BottomNavigation() {
   return (
     <div className="fixed bottom-0 left-0 right-0 bg-white p-3 shadow-lg flex justify-around items-center">
