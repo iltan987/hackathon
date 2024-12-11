@@ -12,7 +12,7 @@ export default function CategorySection({ categories }: CategorySectionProps) {
   return (
     <div className="mt-6">
       <div className="flex justify-between items-center">
-        <h2 className="text-lg font-semibold">Category</h2>
+        <h2 className="text-lg font-semibold">Categories</h2>
         <a href="#" className="text-purple-500 text-sm">
           See All
         </a>
