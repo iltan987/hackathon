@@ -1,4 +1,5 @@
 
+import LocationOnIcon from '@mui/icons-material/LocationOn';
 interface ListItem {
   title: string;
   distance: string;
@@ -24,7 +25,8 @@ export default function ListSection({ title, items }: ListSectionProps) {
             key={idx}
             className="flex items-center gap-3 bg-white p-3 rounded-md shadow-sm"
           >
-            <div className="w-8 h-8 flex justify-center items-center bg-purple-100 text-purple-500 rounded-full">
+            <div className="w-8 h-8 flex justify-center items-center bg-purple-200 text-purple-500 rounded-full">
+            <LocationOnIcon/>
               <i className="fas fa-map-marker-alt" />
             </div>
             <div className="flex-1">
