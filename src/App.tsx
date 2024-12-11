@@ -5,7 +5,7 @@ import BottomNavigation from "./components/BottomNavigation";
 
 const categories = [
   { title: "Dormitories", locations: 15, image: "dormitory.jpg" },
-  { title: "Restaurants", locations: 6, image: "restuarent.jpg" },
+  { title: "Restaurants", locations: 6, image: "restaurant.jpg" },
 ];
 
 const recents = [
